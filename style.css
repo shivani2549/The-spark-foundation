@@ -1,0 +1,351 @@
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: white
+	url('img/Spinner-2.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+    transition: 1s;
+}
+
+.nav{
+    background-color:white;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow:0px 3px 65px 0px rgb(110, 110, 106);
+}
+
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+body{
+    background-image: linear-gradient(rgb(86, 191, 240),white,rgb(153, 190, 233));
+}
+.logo{
+    float: left;
+    width: 60%;
+}
+.logo img{
+    padding: 0px;
+    padding-left: 10px;
+    margin-top:0px;
+    margin-left: 10px;
+}
+.left_nav{
+    
+    width:40%;
+
+}
+.left_nav h4{
+    float:left;
+   padding: 10px 20px;
+  
+    color: honeydew;
+    background-color: rgb(91, 186, 218);
+    border-radius: 20px;
+    transition: .5s;
+   
+}
+
+.left_nav h4:hover{
+    background-color: black;
+    color:rgb(170, 231, 228);
+    border:none;
+    border-bottom:4px solid rgb(137, 220, 226);
+    box-shadow: grey 3px 3px 3px;
+    transition: .5s;
+}
+.side_nav{
+    float: right;
+    width: 50%;
+    margin-top: 15px;
+}
+.side_nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 10px;
+  
+    
+    color: rgb(90, 46, 141);
+    font-family:monospace;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.side_nav a:hover{
+    color: rgb(145, 214, 229);
+    text-decoration: none;
+    
+}
+
+.main{
+    background-image: url(img/img1.jpg);
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:90vh;
+    background-size:cover;
+}
+.main .main_content{
+    padding-top: 11%;
+    margin-left:5%;
+    margin-right: 20%;
+
+}
+.main .main_content h2{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 35px;
+    color: white;
+    
+    
+
+}
+*{
+    margin:0px;
+    padding:0px;
+
+
+}
+.main .main_content h2 span{
+    font-size: 15px;
+    opacity:0.9;
+    color:rgb(224, 213, 209);
+    font-weight: 400;
+    line-height:10px;
+}
+.main .main_content .btn{
+    margin-top: 50px;
+}
+.main .main_content .btn a{
+    text-decoration: none;
+    margin:50px;
+    padding:10px 20px;
+    background-color:rgb(101, 193, 230);
+    color :black;
+    font-family:monospace; 
+    text-align: center;
+    border:2px solid black;
+    border-radius: 10px;
+    transition: .5s;
+
+
+}
+.product{
+    padding-bottom: 50px;
+   
+}
+
+.main .main_content .btn a:hover{
+    background-color: black;
+    color:rgb(93, 203, 218);
+    border:none;
+    border-bottom:4px solid rgb(67, 196, 219);
+    transition: 0.5s;
+}
+.product h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.product .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .item{
+    width: 33.33%;
+    margin:10px;
+    height: auto;
+    border-radius:10px;
+    transition: 0.5s;
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(143, 140, 140, 0.5);
+    border-bottom:4px solid rgb(58, 53, 48);
+    border:none;
+    transition: 0.5s;
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .item .item_img img{
+    width:100%;
+    height: 250px;
+}
+.product .product_container .item .item_img img:hover{
+  color:yellow ;
+}
+
+.product .product_container .item  .item_content{
+    text-align: center;
+
+
+}
+.product .product_container .item  .item_content h3{
+    padding: 10px;
+    font-size: 15px;
+    font-family:monospace ;
+
+}
+.product .product_container .item  .item_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family:monospace ;
+
+}
+.product .product_container .item  .item_content a{
+    text-decoration: none;
+    margin:50px;
+    padding:10px 20px;
+    background-color:rgb(233, 132, 95);
+    color :black;
+    font-family:monospace; 
+    text-align: center;
+    border:2px solid black;
+    border-radius: 10px;
+    transition: .5s;
+   
+
+
+}
+
+.key {
+    padding: 50px;
+
+}
+.key h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding:10px;
+}
+.key .key_container{
+    display: flex;
+
+}
+.key .key_container .key_content{
+    width: 40%;
+    padding:20px;
+    float: left;
+}
+.key .key_container .key_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    color: black;
+   
+    font-family: monospace;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.key .key_container .key_img{
+    width: 40%;
+    height: 70vh;
+    float: right;
+    margin-top: 50px;
+    margin-left:200px ;
+
+}
+.key .key_container .key_img img{
+    width: 100%;
+    height: 60%;
+}
+.testi{
+    height:500px;
+    background-color: rgb(19, 15, 15);
+}
+.jumbotron{
+    background-image: url(img/jub.jpg);
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:50vh;
+    background-size:cover;
+}
+.jumbotron .container h1{
+    margin-top: 100px;
+    text-decoration: bold;
+    color:rgb(236, 243, 243);
+    text-shadow: 3px 3px 3px black;
+}
+
+.sp .special{
+    color: cornsilk;
+    border-radius: 5px;
+    text-decoration: none;
+   padding: 10px 10px 10px;
+    background-color: rgb(91, 186, 218);
+    box-shadow: 3px 3px 3px gray;
+}
+#table h3{
+    width:800px;
+    background-color: rgb(0,0,0,0.6);
+    
+    color:white;
+    padding: 10px 0px 10px 10px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+#form_content{
+        width:800px;
+        background-color: rgb(0,0,0,0.6);
+        margin:auto;
+       
+        color:white;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        border-radius: 0px 0px 15px 15px;
+
+}
+.footer{
+    margin-top: 50px;
+    text-align: left;
+    background-color: black;
+    height:30vh;
+}
+
+.home{
+    border-radius: 90px;
+    padding: 7px 7px 7px;
+    background-color: rgb(79, 207, 224);
+    transition: .5s;
+}
+.home:hover{
+    padding: 10px 10px 10px;
+    transition: .5s;
+}
+.text-center{
+    margin-top:100px;
+    color: cornsilk;
+}
+ .foot_content{
+    color: cornsilk;
+
+}
+.text-center .fa{
+    color: cornsilk;
+}
+
+
+
+
+
+
+
